@@ -40,11 +40,15 @@ const navSections = [
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
       <!-- Brand -->
       <div class="flex flex-col gap-6">
-        <a href="/" class="flex items-center gap-2 group">
-          <div class="w-8 h-8 bg-accent rounded-md flex items-center justify-center shadow-glow group-hover:scale-110 transition-transform">
-            <span class="text-white font-bold text-xl leading-none">N</span>
-          </div>
-          <span class="text-xl font-bold tracking-tight">Novory</span>
+        <a href="/" class="group">
+          <!-- Logo claro -->
+          <img src="/assets/novory-logotipo-horizontal-color-clear-svg.svg"
+              alt="Logo Novory"
+              class="w-20 sm:w-24 md:w-28 lg:w-32 transition-transform group-hover:scale-105 dark:hidden" />
+          <!-- Logo oscuro -->
+          <img src="/assets/novory-logotipo-horizontal-color-dark-svg.svg"
+              alt="Logo Novory"
+              class="w-20 sm:w-24 md:w-28 lg:w-32 transition-transform group-hover:scale-105 hidden dark:block" />
         </a>
         <p class="text-text-secondary text-sm max-w-xs leading-relaxed">
           Ayudamos a negocios locales a crecer utilizando tecnología moderna. Creamos herramientas digitales que generan resultados reales.
@@ -89,7 +93,7 @@ const navSections = [
         </p>
       </div>
       <p class="text-text-secondary text-sm italic font-medium text-center lg:text-right max-w-md">
-        "No desarrollamos únicamente sitios web. Construimos herramientas para impulsar negocios."
+        "No desarrollamos únicamente sitios web. Construimos herramientas para impulsar tu negocio."
       </p>
     </div>
   </div>
